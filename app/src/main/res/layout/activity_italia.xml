@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#caf9b1 "
+    tools:context=".Italia">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/bttBackEs2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:backgroundTint="#caf9b1 "
+            android:tint="@color/black"
+            app:srcCompat="?attr/actionModeCloseDrawable" />
+
+        <TextView
+            android:id="@+id/textView184"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Bem vindo a Itália"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/imageView27"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/italia" />
+
+        <TextView
+            android:id="@+id/textView185"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Escolha o tópico desejado:"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/bttFesIt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#009245 "
+            android:text="Festivais +"
+            app:cornerRadius="20dp" />
+
+        <LinearLayout
+            android:id="@+id/FestivaisIt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/textView207"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Scoppio del Carro"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView208"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="É uma tradição nascida há cerca de 400 anos, em 1622, e é uma das tradições mais belas e antigas de Florença. Acompanhada pelas autoridades, músicos e militares, uma “carroça” com uma torre de fogos, conhecida como “Brindellone”, é puxada por bois brancos e chega às portas da Catedral de Florença."
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView201"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Carnaval"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView204"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="O Carnaval da Itália tem como característica a tradição das pessoas se mascararem."
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView205"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="IL Palio di Siena"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView206"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="É uma corrida de cavalos na Piazza del Campo, no centro da cidade italiana de Siena, que ocorre nos dias 2 de julho e 16 de agosto, desde o século XIII."
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/bttCloseFesIt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#009245 "
+                android:text="↑ Ocultar"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bttIdIt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#eeeeee "
+            android:text="Idiomas +"
+            android:textColor="@color/black"
+            app:cornerRadius="20dp" />
+
+        <LinearLayout
+            android:id="@+id/IdiomasIt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/textView209"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="O idioma na Itália, oficialmente, é o italiano. Porém, a língua também é considerada oficial em San Marino, na Suíça e no Vaticano. O italiano foi estabelecido como língua oficial na Itália e, depois de 1861 quando da unificação do país, ganhou corpo e foi imposta como obrigatória. "
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/bttCloseIdIt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#eeeeee "
+                android:text="↑ Ocultar"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bttRelIt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#cd2b37 "
+            android:text="Religião +"
+            app:cornerRadius="20dp" />
+
+        <LinearLayout
+            android:id="@+id/ReligiaoIt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/textView210"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="Atualmente, na Itália, mais de 50 milhões de cidadãos são batizados pela Igreja e dois terços da população (cerca de 60 milhões) se declaram católicos. Cerca de 29% deles, de acordo com dados de 2016 do instituto de estatística ISTAT, vão à missa pelo menos uma vez por semana nas quase 67 mil igrejas de todo o país. "
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/bttCloseRelIt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#cd2b37 "
+                android:text="↑ Ocultar"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bttCulIt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#eeeeee "
+            android:text="Culinária +"
+            android:textColor="@color/black"
+            app:cornerRadius="20dp" />
+
+        <LinearLayout
+            android:id="@+id/CulinariaIt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/textView211"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="A culinária italiana apresenta influências da cozinha etrusca, da antiga Grécia, da antiga Roma, Bizantina, Hebraica e Árabe. E sofreu importantes mudanças com a descoberta do Novo Mundo (América), como a introdução de alimentos como batata, tomate,pimentão e milho. Alguns dos pratos típicos de lá: Pizza à Lenha sem Lenha, Lasanha com Polpetas, Risoto Carbonaro e Ossobuco ao Forno"
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/bttCloseCulIt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#eeeeee "
+                android:text="↑ Ocultar"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bttPTIt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#009245 "
+            android:text="Pontos turísticos +"
+            app:cornerRadius="20dp" />
+
+        <LinearLayout
+            android:id="@+id/PTIt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/textView212"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="Os melhores pontos turísticos da Itália, os locais são variados e vão agradar aos mais diversos públicos, desde os que querem fazer um mochilão pelas Cinque  Terre, até os mais românticos que desejam fazer seu pedido na Fontana di Trevi. # Não há como falar da Itália sem falar do Coliseu. Situado em roma, esse é um dos mais conhecidos pontos turísticos do país. Ele fica localizado no centro da capital italiana e é um dos anfiteatros mais antigos do mundo, construído ainda no Império Romano. "
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView213"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Torre de Pisa"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView214"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="A Torre de Pisa, também conhecida como torre    inclinada, é muito marcante, ainda mais por conta das famosas fotos que são tiradas no que é um dos cenários privilegiados e um dos mais tradicionais pontos turísticos da Itália. "
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView215"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Praça de São Marcos"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView216"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="Além dos tradicionais e românticos passeios de barco, Veneza, na Itália, tem outro ponto turístico marcante. A praça de São Marcos é o ponto turístico mais procurado. Há alguns motivos para que isso aconteça, como o fato de abrigar vários lugares históricos e que valem a pena conhecer. "
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView217"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Duomo de Milão"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView218"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="Duomo de Milão uma das cidades mais importantes da Itália e capital da moda no mundo, Milão também oferece pontos turísticos bem interessantes. O Duomo é o símbolo atemporal de Milão, com características bem marcantes, como ser solene, elegante e ter um ar sofisticado."
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView219"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Fontana di Trevi"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView220"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="Entre os mais famosos  pontos turísticos da Itália, a Fontana di Trevi é um lugar com grande concentração de visitantes em Roma, afinal, todos querem passar lá e fazer um desejo. "
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/bttClosePTIt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#009245 "
+                android:text="↑ Ocultar"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

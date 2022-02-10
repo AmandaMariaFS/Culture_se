@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f8bdbc"
+    android:orientation="vertical"
+    tools:context=".Canada">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f8bdbc"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/bttBackAmerica"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:backgroundTint="#f8bdbc"
+            android:tint="#2e2021"
+            app:srcCompat="?attr/actionModeCloseDrawable" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Bem vindo ao Canadá"
+            android:textAlignment="center"
+            android:textColor="#2e2021"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/bandeira_canada_kawai" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Escolha o tópico desejado:"
+            android:textAlignment="center"
+            android:textColor="#2e2021"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/bttFes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#d02c1e"
+            android:text="Festivais +"
+            android:textColor=" #f8bdbc"
+            app:cornerRadius="20dp"
+            app:iconTint="#c56f6a" />
+
+        <LinearLayout
+            android:id="@+id/Festivais"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="O Canadá é uma nação surpreendente, conseguindo ser um polo turístico em todas as estações do ano. Seus incríveis parques e jardins são disputados por turistas e moradores durante a primavera e o outono. Já as praias fazem a festa dos visitantes no verão. E, como não poderia deixar de ser, os famosos festivais canadenses, que inundam o país durante todo ano, são algumas das melhores opções de lazer e diversão na terra das imponentes Montanhas Rochosas. Obviamente, não é possível esquecer o inverno canadense e os seus incríveis eventos. Com apresentações para os mais variados gostos e estilos, são um show de cores e de sons, como o Snow Days, o Ice On Whyte, o Igloofest, entre várias outras, que invadem o país durante essa estação."
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Thanksgiving"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="O Thanksgiving Day, ou simplesmente “Dia de Ação de Graças”, é celebrado no Canadá todo dia 14 de outubro, com vários eventos, shows e festas de rua. É um momento de juntar família e amigos em torno de uma bela mesa para perpetuar a velha tradição (iniciada nos idos do século XVII nos Estados Unidos) de agradecer por uma boa colheita. Essa é também uma oportunidade de realizar uma imersão na cultura canadense, principalmente por meio de sua culinária e dos rituais que fazem parte desse dia."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Canada Day"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="O “Dia do Canadá” é um festival ou comemoração que celebra uma espécie de “fundação” do país. Nessa data, comemora-se a publicação do Ato Constitucional de 1867 (à época o “Ato da América do Norte Britânica”), que tornava as colônias de Nova Escócia, Nova Brunswick, o Baixo Canadá e o Alto Canadá uma só possessão do Império Britânico: a “Província do Canadá”. A comemoração já foi chamada de Dia do Domínio. Porém, em 1982 o parlamento sancionou a “Lei do Canadá” (que deu o atual nome à festa) e praticamente abriu caminho para uma verdadeira explosão de shows, desfiles, festas, apresentações e concursos. As comemorações também se espalham por todas as províncias, além de outros países que possuam uma comunidade canadense. Para quem vem de fora, essa é uma excelente oportunidade de conhecer um pouco mais das tradições e da cultura do país. "
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Victoria Day"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Já o Victoria Day transformou-se numa espécie de festival canadense (hoje um feriado) em homenagem ao aniversário da Rainha Vitória (1819-1901). A “Queen Victoria”, como é conhecida em terras inglesas, subiu ao trono britânico quando tinha apenas 18 anos (em 1837), sob o lema “Paz e Abundância”, tornando-se, por isso, um símbolo de mudança no país ao longo dos seus 63 anos de reinado. Um reinado que, de tão longo, ficou conhecido como a “Era Vitoriana”, repleta de casos, lendas e histórias contadas em diversas obras literárias. Hoje, inúmeros eventos, desfiles, paradas, shows, concursos, queima de fogos e demais atividades, fazem a alegria de nativos e turistas que, sempre na última segunda-feira antes do dia 24 de maio (dia do seu nascimento), invadem o país para fazer do Victoria Day uma das festas mais importantes e tradicionais da América do Norte. "
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/bttCloseFes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#d02c1e"
+                android:text="↑ Ocultar"
+                android:textColor=" #f8bdbc"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bttid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="@color/white"
+            android:text="Idiomas +"
+            android:textColor="#c56f6a"
+            app:cornerRadius="20dp" />
+
+        <LinearLayout
+            android:id="@+id/idiomas"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="O Canadá tem dois idiomas oficiais: o inglês e o francês. O país é uma nação bilíngue, mas a maioria das pessoas falam inglês. Depende muito da região, na verdade. A província de Quebec e a de New Brunswick, por exemplo, são as com maiores falantes de francês, com 77,1% e 31,4% de falantes nativos do francês, respectivamente. Já as províncias de British Columbia e Ontário são as com maior número de habitantes que têm o inglês como língua materna. Há também a região que é conhecida como “cinturão bilíngue”, que abrange cidades como Montreal, Ottawa e Quebec e é a região com maior número de falantes dos dois idiomas. "
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/bttCloseId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:text="↑ Ocultar"
+                android:textColor="#c56f6a"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bttRel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#d02c1e"
+            android:text="Religiões +"
+            android:textColor=" #f8bdbc"
+            app:cornerRadius="20dp" />
+
+        <LinearLayout
+            android:id="@+id/religiao"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="O Canadá engloba uma ampla gama de grupos e crenças. O cristianismo é a maior religião do Canadá com católicos sendo o maior grupo. Em 2011 Os cristãos representavam 67,3% da população, seguidos por pessoas sem religião, com 23,9%."
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/bttCloseRel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#d02c1e"
+                android:text="↑ Ocultar"
+                android:textColor=" #f8bdbc"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bttCul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="@color/white"
+            android:text="Culinária +"
+            android:textColor="#c56f6a"
+            app:cornerRadius="20dp" />
+
+        <LinearLayout
+            android:id="@+id/culinaria"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="A culinária canadense não está entre as mais conhecidas do mundo. Por isso mesmo, o melhor lugar para experimentar comidas típicas é no próprio Canadá. Mas vá com o estômago preparado: os pratos costumam ser pesados, calóricos e bem temperados."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Bannock"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Antes da chegada de ingleses e franceses, o bannock já alimentava os povos nativos do Canadá, como os esquimós. Grande e redondo, feito com farinha de trigo, levedura e água, as versões originais do bannock também levam ervas nativas e seivas de árvores. Mas cada família indígena costuma ter sua própria receita. Também é comum no Alaska e norte dos EUA. Vai muito bem recheado com queijo ou coberto com bacon ou geleias. E existe até pizza de bannock."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Poutine"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Uma grande porção de batata frita coberta com pedaços de queijo e molho de carne e pimenta. Esse é o poutine básico, prato originário do Québec que se espalhou pelo Canadá e hoje tem restaurantes especializados até em São Paulo. Há dezenas de possibilidades de coberturas para o poutine, como carne de panela, linguiça, legumes e opções mais pesadas."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Maple Syrup"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="O Maple Syrup é um xarope muito utilizado pelos canadenses, principalmente no café da manhã, sendo adicionado nos waffles ou panquecas. Ele tem a textura do mel que estamos acostumados, assim como a cor também é muito parecida. Esse ingrediente especial é uma iguaria canadense muito apreciada, sendo extraído da árvore Maple, que é símbolo da bandeira canadense."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Mac N Cheese"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="É um macarrão instantâneo que funciona para os canadenses como o miojo no Brasil. A diferença é que se trata de um macarrão instantâneo um pouco mais elaborado. Como o próprio nome já diz tem queijo, e o preparo consiste em cozinhar o macarrão rapidamente, e acrescentar leite e manteiga na base de molho pronto que vem junto com o macarrão. Essa refeição é muito consumida por estudantes universitários, e as crianças também costumam adorar essa comida típica do Canadá. "
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/bttCloseCul"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:text="↑ Ocultar"
+                android:textColor="#c56f6a"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bttPT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#d02c1e"
+            android:text="Pontos turísticos +"
+            android:textColor=" #f8bdbc"
+            app:cornerRadius="20dp" />
+
+        <LinearLayout
+            android:id="@+id/pontosTuristicos"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Com 35 milhões de habitantes, o Canadá é um dos maiores países do mundo em dimensões territoriais. É natural que, em uma área tão extensa, o número de pontos turísticos, sejam eles construídos pelo homem ou paisagens naturais, seja enorme."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Cataratas do Niágara"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="As Cataratas do Niágara estão entre os mais visitados pontos turísticos do Canadá. Muitos acreditam que essas cataratas ficam nos Estados Unidos, mas a verdade é que elas marcam a divisão da fronteira entre o Canadá e os EUA. O lado canadense possui as maiores quedas, com 53 metros de altura e 671 metros de comprimento. Mais de 90% de toda a água do Rio Niágara passa pelo lado canadense, fazendo desse ponto turístico um verdadeiro fenômeno natural!"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="CN Tower"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="A terceira maior torre do mundo é o grande destaque do skyline de Toronto! Ao todo, a torre tem 553 metros de altura. Durante 34 anos (de 1976, quando foi inaugurada até 2007), ela foi considerada a mais alta torre do mundo. Sua construção colossal a transforma em um dos principais pontos turísticos do Canadá, atraindo mais de dois milhões de visitantes anualmente. E com toda razão: a CN Tower em Toronto oferece uma paisagem incrível de onde é possível ver toda a cidade de Toronto e região. Em dias com poucas nuvens, dizem ser possível avistar até mesmo as Cataratas do Niágara, que ficam a 130 km de distância!"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Parliament Hill"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="O Parliament Hill - a Colina do Parlamento - é a casa do Governo Federal do Canadá. É onde os representantes do povo canadense se reúnem para fazer as leis do país e um lugar que todos devem visitar em Ottawa, a capital do Canadá. Esse local se destaca com seu conjunto arquitetônico gótico no alto de uma colina que fica às margens do Rio Ottawa. Para quem gosta de atrações culturais, o passeio é repleto de coisas incríveis. É possível conhecer o funcionamento do senado, a história do canadá e ainda é possível ter uma vista panorâmica de Ottawa no alto da Peace Tower, a torre central dos edifícios do parlamento. As visitas à Parliament Hill são gratuitas e são feitas com ajuda de um guia. "
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Royal Ontario Museum"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="O Royal Ontario Museum, em Toronto, promete chamar a atenção dos visitantes antes mesmo de entrar: sua fachada mistura um design muito futurístico ao mesmo tempo que tem um prédio centenário. Esse museu tem um dos maiores acervos de arte no Canadá, com mais de 6 milhões de peças e objetos de todos os inúmeros períodos da história."
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/bttClosePT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#d02c1e"
+                android:text="↑ Ocultar"
+                android:textColor=" #f8bdbc"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

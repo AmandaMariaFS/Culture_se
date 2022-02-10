@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dd7b84 "
+    tools:context=".NovaZ">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/bttBackAu2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:backgroundTint="#dd7b84 "
+            android:tint="@color/black"
+            app:srcCompat="?attr/actionModeCloseDrawable" />
+
+        <TextView
+            android:id="@+id/textView221"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Bem vindo a Nova Zelândia"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/imageView28"
+            android:layout_width="match_parent"
+            android:layout_height="179dp"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/nova_zelandia" />
+
+        <TextView
+            android:id="@+id/textView222"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Escolha o tópico desejado:"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/bttFesNZ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#01247e "
+            android:text="Festivais +"
+            app:cornerRadius="20dp" />
+
+        <LinearLayout
+            android:id="@+id/FestivaisNz"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/textView223"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Dunedin Fringe Festival​"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView244"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="O festival mais meridional do mundo desse tipo, o Dunedin Fringe Festival é uma mistura eclética de teatro, música, dança, comédia e artes visuais. Realizado anualmente todo mês de março, esse evento de 11 dias destaca a arte de vanguarda como forma de apoiar o trabalho de artistas emergentes."
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView245"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Hobbit Day"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView246"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="Que lugar melhor para celebrar o Dia Internacional Hobbit, no dia 22 de setembro, do que no Condado? É o local perfeito para festas de fãs dos hobbits, com um dia cheio de atividades e banquetes. De uma visita ao set de filmagem Hobbiton, em Matamata , a tradicionais banquetes hobbit, passando por uma caminhada sob a luz da lua entre colinas e moradias hobbit, esta é certamente uma das experiências mais mágicas da Nova Zelândia."
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/bttCloseFesNz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#01247e "
+                android:text="↑ Ocultar"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bttIdNz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#fefefd "
+            android:text="Idiomas +"
+            android:textColor="@color/black"
+            app:cornerRadius="20dp" />
+
+        <LinearLayout
+            android:id="@+id/IdiomasNz"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/textView224"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="As duas línguas oficias da Nova Zelândia é o inglês, muito parecido com o australiano, e o Maori, língua nativa da região"
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/bttCloseIdNz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#fefefd "
+                android:text="↑ Ocultar"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bttRelNz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#ce1b2b "
+            android:text="Religião +"
+            app:cornerRadius="20dp" />
+
+        <LinearLayout
+            android:id="@+id/ReligiaoNz"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/textView225"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="A maior parte da população não se identifica com nenhuma religião, sendo 48% da população. Dos que se identificam como religiosos, 37% se considera cristão."
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/bttCloseRelNz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#ce1b2b "
+                android:text="↑ Ocultar"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bttCulNz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#fefefd "
+            android:text="Culinária +"
+            android:textColor="@color/black"
+            app:cornerRadius="20dp" />
+
+        <LinearLayout
+            android:id="@+id/CulinariaNz"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/textView247"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Lagostim"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView226"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="Conhecida por seu incrível lagostim, a pequena cidade de Kaikōura tem caravanas de frutos do mar’ espalhadas ao longo da costa. O mais famoso é  Nin’s Bin, que é operado por uma família local que vende lagostins desde 1977. Geralmente preparados na manteiga local."
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView248"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Cordeiro da Nova Zelândia"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView249"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="O cordeiro da Nova Zelândia é muito apreciado em todo o mundo e é uma das carnes de maior exportação do país. Melhor saboreado com alecrim e servido acompanhado de muitas verduras sazonais assadas, o cordeiro assado é uma refeição que certamente impressionará. Você o encontrará nos cardápios de nossos melhores restaurantes em todo o país."
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView250"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Hāngī"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView251"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="O hāngī Māori é um estilo tradicional de cozinhar em forno de terra. Agora reservado principalmente para ocasiões especiais, os alimentos cozidos em um hāngī incluem frango, porco e carneiro, assim como abóbora, batata e kumara (batata doce). Um dos melhores lugares para apreciar esse banquete cultural é Rotorua, no centro da ilha norte, onde você pode saborear alimentos cozidos no vapor em piscinas geotérmicas. Você também pode saborear um delicioso pudim cozido ao vapor do hāngī para sobremesa."
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/bttCloseCulNz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#fefefd "
+                android:text="↑ Ocultar"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bttPTNz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#01247e "
+            android:text="Pontos turísticos +"
+            app:cornerRadius="20dp" />
+
+        <LinearLayout
+            android:id="@+id/PTNz"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/textView252"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Sky Tower, em Auckland"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView227"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="A Sky Tower é o maior ícone arquitetônico de Auckland e está presente em quase todo cartão postal da cidade. Apesar de ter inauguração recente (1997), a torre logo se tornou um dos principais pontos turísticos da Nova Zelândia, por facilmente se destacar na paisagem urbana da maior cidade do país. Como Auckland serve como porta de entrada à maioria dos turistas que desembarcam na Nova Zelândia, visitar a Sky Tower costuma ser o primeiro item a ser riscado no roteiro de viagem dos recém-chegados."
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView253"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="A praia de Piha"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView254"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="Auckland é cercada por praias por todos os lados, sendo banhada pelas duas costas neozelandesas. Na parte oeste da cidade, no litoral do Mar da Tasmânia, estão as faixas de areia mais famosas do país. Dentre elas, a mais célebre é a Praia de Piha, muito frequentada por surfistas e notabilizada internacionalmente."
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView255"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Hobbiton"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView256"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="Entre os pontos turísticos da Nova Zelândia, talvez o mais divulgado em anos recentes, Hobbiton é o nome da Vila dos Hobbits na série de filmes “O Senhor dos Anéis”. Próximo a Matamata, no interior de Waikato, a fazenda que serviu de locação para Hollywood mantém os cenários intactos e abertos à visitação desde então, atraindo fanáticos pelas histórias da Terra Média todos os dias. "
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/bttClosePTNz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#01247e "
+                android:text="↑ Ocultar"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

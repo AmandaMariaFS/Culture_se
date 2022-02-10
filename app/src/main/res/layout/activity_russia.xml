@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8ca2e1 "
+    android:orientation="vertical"
+    tools:context=".Russia">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/bttBackR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTint="#8ca2e1 "
+            android:tint="@color/black"
+            app:srcCompat="?attr/actionModeCloseDrawable"
+            tools:layout_editor_absoluteX="52dp" />
+
+        <TextView
+            android:id="@+id/textView52"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Bem vindo a Russia"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/imageView19"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/russia" />
+
+        <TextView
+            android:id="@+id/textView53"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Escolha o tópico desejado:"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/bttFesR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#eeeeee "
+            android:text="Festivais +"
+            android:textColor="@color/black"
+            app:cornerRadius="20dp" />
+
+        <LinearLayout
+            android:id="@+id/festiaisR"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/textView139"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="Os russos são conhecidos como um povo alegre e barulhento. Como não poderia deixar de ser, suas tradições integram a colorida cultura que atrai milhões de visitantes ao país todos os anos. Sem dúvida, as festividades representam bem esse espírito, celebrando tanto feriados pagãos quanto os religiosos, a exemplo do Natal e Páscoa."
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView138"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Natal"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="Na Rússia, o Natal é celebrado no dia 7 de janeiro, de acordo com o calendário ortodoxo. Até porque o Ano Novo, comemorado antes, é uma espécie de começo para os próximos festivais. Entre as duas datas, as cidades são lindamente enfeitadas com decorações tradicionais. Cada ponte, parque e lugar público ganha uma bela iluminação. Eclipsado pelas celebrações do Ano Novo, a data acaba tendo menos destaque do que recebe em outras nações do Leste Europeu. Aliás, isso encontra raízes históricas! "
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView140"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Sviatki"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView141"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="Ou vyatki, é o período que consiste entre os dias 7 e 19 de Janeiro, correspondentes ao Natal Ortodoxo e a Epifania, respectivamente. E por que ele é tão importante? Por um tempo, o Cristianismo foi suprimido na Rússia, junto com velhas tradições, como a adivinhação que, inclusive, antecedeu a adoção das crenças cristãs no país. Por isso, aos poucos, o Natal vem sendo valorizado como um momento especial para os cristãos. Na Epifania, russos mais devotos encerram o período religioso mergulhando nas águas geladas de um rio ou riacho. Segundo ele, as águas têm poderes mágicos e simbolizam o batismo de Jesus. Obviamente, as canções tradicionais não faltam. Caroling é uma das mais comuns, cantada por cantores fantasiados."
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView142"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Maslenitsa"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView143"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="é semelhante ao Mardis Gras da Rússia. A semana de Maslenitsa começou como um ritual pagão do sol e, desde então, foi absorvida pela religião ortodoxa oriental, servindo a muitos propósitos. Assim, sinaliza o fim do inverno e anuncia a chegada da primavera. Como parte das celebrações pré-quaresmais, a semana também é um momento de festa e diversão. Nela, as crianças brincam, as avós preparam grandes pilhas de panquecas e as cidades realizam festivais durante os quais a efígie de “Lady Maslenitsa” é queimada. O ato tem o intuito de dar as boas-vindas à primavera e ao retorno do sol. Também marca os últimos dias consumindo leite e ovos. "
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/bttCloseFesR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#eeeeee "
+                android:text="↑ Ocultar"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bttIdR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#22408b "
+            android:text="Idiomas +"
+            android:textColor="@color/white"
+            app:cornerRadius="20dp" />
+
+        <LinearLayout
+            android:id="@+id/idiomasR"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/textView56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="Oficialmente, existem mais de 30 idiomas com status oficial na Rússia. De acordo com o artigo 68 da Constituição da Federação da Rússia, “as repúblicas [dentro da Rússia] têm o direito de estabelecer suas próprias línguas estatais”."
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/bttCloseIdR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#22408b "
+                android:text="↑ Ocultar"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bttRelR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#ce2028 "
+            android:text="Religião +"
+            app:cornerRadius="20dp" />
+
+        <LinearLayout
+            android:id="@+id/religiaoR"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/textView57"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="A constituição atual da Rússia diz que o país é laico, ou seja, todas as crenças religiosas deveriam ser respeitadas, mas uma lei de 26 de setembro de 1997, estabelece e reconhece que a Igreja Ortodoxa, o Budismo, o Islamismo e o Judaísmo são religiões tradicionais russas, o que inviabiliza a proliferação de novas."
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/bttCloseRelR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#ce2028 "
+                android:text="↑ Ocultar"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bttCulR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#eeeeee "
+            android:text="Culinária +"
+            android:textColor="@color/black"
+            app:cornerRadius="20dp" />
+
+        <LinearLayout
+            android:id="@+id/culinariaR"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/textView58"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="A Rússia possui uma gastronomia diversificada e que chama a atenção — principalmente por ser composta de alimentos mais leves e saudáveis, o que não faz deles menos saborosos."
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView144"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Estrogonofe (Stroganov)"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView145"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="O estrogonofe de frango é muito consumido pelos brasileiros. Contudo, essa é mais uma das comidas da Rússia que se popularizou.Há algumas histórias que contam sua origem e uma delas é a de que ele teria surgido no século XIX e recebido o nome de “Stroganov”, devido ao sobrenome de uma influente família russa. Por volta de 1915, o estrogonofe foi levado à França. A receita original levava carne bovina, creme de leite, sal e cebola. Porém, por causa da popularização da receita em diversos países, é possível observar a adição de ingredientes como mostarda, champignon e ketchup."
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView146"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Pão de mel"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView147"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="Poucas pessoas sabem, mas esse doce apreciado ao redor do mundo provavelmente foi criado na Rússia. Chamado originalmente de Pryanik, o pão de mel surgiu por volta do século XI no país. Os principais ingredientes utilizados nesta receita eram uma mistura de farinha, mel e suco de frutas, sendo que o mel era colocado em grandes quantidades e se destacava entre os demais. Atualmente, adiciona-se a esse bolinho especiarias como cravo, canela e açúcar. Uma boa dica é experimentar o Pão de Mel de Tula, uma cidade próxima a Moscou, onde ele é fabricado no formato de um bolo, sendo considerado um dos mais tradicionais da Rússia."
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView148"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Syrniki"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView149"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="O syrniki (ou tvorozhniki) é uma deliciosa panqueca de queijo muito consumida no café da manhã dos russos. Os ingredientes essenciais para a receita da massa são: ovo, farinha, queijo ricota ou cottage e fermento. Ademais, os acompanhamentos podem ser mel, geleia de frutas ou molho de maçã."
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView150"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Borscht"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView151"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="Prato encontrado nas mesas das famílias russas e nos restaurantes, o borscht é consumido principalmente para espantar o frio. Uma sopa feita a partir de ingredientes nutritivos, como beterraba, tomate e cebola, podendo conter também outros legumes e diversas opções de carne. Além da variação nos elementos que compõem a receita original, esse prato também pode ser servido quente ou frio, de acordo com o gosto da pessoa e das circunstâncias."
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/bttCloseCulR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#eeeeee "
+                android:text="↑ Ocultar"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bttPTR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="15dp"
+            android:backgroundTint="#22408b "
+            android:text="Pontos turísticos +"
+            app:cornerRadius="20dp" />
+
+        <LinearLayout
+            android:id="@+id/pontosTR"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="Reconhecida por sua cultura fechada e por ser o berço de grandes revoluções e movimentos culturais, a fria Rússia tem muito mais que seus rótulos para oferecer. Cada pedaço de suas cidades conta um pouco de sua grandiosa história."
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView152"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Teatro Bolshoi"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView153"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="Quando falamos da Rússia, não podemos deixar de citar o famoso Teatro Bolshoi, palco de uma das maiores companhias de dança do mundo: a Academia de Ballet Bolshoi. Hoje, o Teatro recebe diversos festivais, espetáculos e companhias de dança, música e teatro. Os ingressos são bastante disputados, por isso vale a pena fazer a compra antecipadamente. Caso não queira assistir algum espetáculo, é possível fazer um tour guiado pelo local, para conhecer toda sua lindíssima história."
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView154"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Metrô de Moscou"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView155"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="Apesar de não ser um ponto turístico propriamente dito, o metrô de Moscou é uma atração por si só. Mesmo que geralmente você não ande de transporte público, em Moscou é interessante considerar dar uma voltinha. O metrô da cidade é praticamente uma galeria de arte pública. Suas estações são revestidas com pinturas a fresco, detalhes em alto relevo, quadros e esculturas. Tudo isso resulta em um ambiente parecido com um museu de arte."
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView156"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Palácio Catarina"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView157"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="O palácio que fica localizado a cerca de 25 km de São Petersburgo foi a residência de verão de muitos czares russos. Seus traços de Rococó e aposentos com diversas características artísticas transformam sua arquitetura em um espetáculo por si só. Cada espaço do palácio é uma surpresa diferente. "
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView158"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Museu da Guerra Fria"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView159"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="Esse museu é para os amantes de história e também para aqueles que querem ter uma noção do que foi a Segunda Guerra Mundial e a Guerra Fria. Conhecido como Bunker 42, o museu leva o visitante ao antigo bunker de Stalin, que fica cerca de 20 andares abaixo da superfície. O Bunker 42 é uma reconstituição fiel dos ambientes usados durante a guerra, fazendo com que o visitante tenha uma visão de como eram feitas as operações na época. "
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/bttClosePTR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#22408b "
+                android:text="↑ Ocultar"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

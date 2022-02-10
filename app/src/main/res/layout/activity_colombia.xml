@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eef1c7 "
+    tools:context=".Colombia">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/bttBackAmerica2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:backgroundTint="#eef1c7 "
+            android:tint="#2e2021"
+            app:srcCompat="?attr/actionModeCloseDrawable" />
+
+        <TextView
+            android:id="@+id/textView101"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Bem vindo a Colômbia"
+            android:textAlignment="center"
+            android:textColor="#2e2021"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/imageView25"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/colombia_mapa" />
+
+        <TextView
+            android:id="@+id/textView113"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Escolha o tópico desejado:"
+            android:textAlignment="center"
+            android:textColor="#2e2021"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/bttFesCo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#fcd117 "
+            android:text="Festivais +"
+            android:textColor="#25230C"
+            app:cornerRadius="20dp" />
+
+        <LinearLayout
+            android:id="@+id/FestivaisCo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="A Colômbia é um país sem estações e rodeado por dois oceanos, por isso durante o ano todo existe um clima perfeito para uma festa na praia ou para uma caminhada por Los Nevados. Esta mesma versatilidade geográfica se reflete na cultura popular colombiana que oferece a população local e aos estrangeiros, festivais e eventos culturais que satisfazem os interesses de todos. "
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text=" Feira de Manizales – Manizales"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Faz 62 anos que a Feira de Manizales combina as tradições de Sevilla, Espanha, com a cultura cafeeira. Os apaixonados pelas touradas encontrarão diversas atividades interessantes, pois em suas várias edições a feira teve toureiros do nível de 'El Juli', Ponce, Roca Rey, Manolo González e Alfredo Jiménez, entre outros. Tenha em conta que 80% dos eventos da feira são gratuitos, com exceção daqueles relacionados com a tourada."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView114"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Festival Mono Núñez"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView115"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Vale do Cauca. Para exaltar e preservar a música andina colombiana foram criados diversos festivais por todo o país, um dos mais importantes é o Festival Mono Núñez. Acontece num pequeno povoado do Vale do Cauca, chamado Ginebra, e durante três dias todas as pousadas, casas de família e hotéis ficam cheios de músicos de diferentes regiões e países, que cantam acompanhados de violões, bandolins e cavaquinhos, e de visitantes que participam do festival."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView116"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Feira das Flores – Medellín"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView117"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Este festival é conhecido por seu tradicional desfile de silleteros, que destaca as qualidades e origens dos homens do campo. Estes vendedores ambulantes são campesinos agricultores que vão ao evento com uma armação de madeira nas costas, que sustenta uma coroa de flores organizadas de tal maneira que cada coroa conta uma história diferente. A confecção das coroas de flores é uma tradição que passa de geração para geração, é uma tradição típica da região de Santa Elena."
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/bttCloseFesCo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#fcd117 "
+                android:text="↑ Ocultar"
+                android:textColor="#25230C"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bttidCo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#22408b "
+            android:text="Idiomas +"
+            app:cornerRadius="20dp" />
+
+        <LinearLayout
+            android:id="@+id/IdiomasCo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/textView118"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="O espanhol é o idioma mais popular falado na Colômbia e é falado por mais de 99.2% dos colombianos. No entanto, a língua espanhola falada na Colômbia, conhecida como espanhol colombiano, varia da língua espanhola tradicional falada na Espanha e em outros países de língua espanhola."
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/bttCloseIdCo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#22408b "
+                android:text="↑ Ocultar"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bttRelCo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#ce2028  "
+            android:text="Religiões +"
+            app:cornerRadius="20dp" />
+
+        <LinearLayout
+            android:id="@+id/ReligioesCo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/textView119"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Cristianismo 90% (católicos), religiões indígenas (1%), Hinduísmo, Budismo, Judaísmo e Islamismo (1%), outras não especificadas 8% -2010 A religião na Colômbia resulta essencialmente da mestiçagem cultural dos povos nativos com a influência colonizadora espanhola."
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/bttCloseRelCo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#ce2028  "
+                android:text="↑ Ocultar"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bttCulCo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#fcd117 "
+            android:text="Culinária +"
+            android:textColor="#25230C"
+            app:cornerRadius="20dp" />
+
+        <LinearLayout
+            android:id="@+id/CulinariaCo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/textView120"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="A culinária encontrada na Colômbia faz com que você se apaixone por este incrível país. Com uma diversidade cultural tão grande, a gastronomia da Colômbia também se faz muito marcante, com pratos incríveis e de sabores indescritíveis, difíceis de esquecer. Ela, acima de tudo, é muito rica, contando com pratos alegres, coloridos e cheios de frutas, sopas e alimentos que tornam tudo mais receptivo. A base da sua culinária é composta principalmente por milho, batata, mandioca e banana."
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView121"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Ajiaco"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView122"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="Uma sopa com tudo dentro, uma estilo de prato tipicamente da América do Sul. Na versão colombiana, a receita mais comum leva milho, frango, alcaparras e diferentes tipos de batata. Tudo muito bem cozido."
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView123"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Arroz de coco"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView124"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="Assim como no nordeste do Brasil temos o arroz de leite, na Colômbia um prato típico do litoral é o “arroz con coco”, muito popular na região do Caribe. Feito com leite natural de coco, geralmente é servido dentro da cuia do próprio coco, acompanhado de outras delícias como patacones."
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView125"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Patacones"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView126"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="Pedacinhos fritos de banana da terra muito, muito crocantes. Essa é a base do patacón, típico e simples prato colombiano, que pode ser servido assim, puro, ou com patês de frango, guacamole, vinagrete, ou o que você quiser."
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView127"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Arepa Colombiana"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView128"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="Um tipo de massa muito comum na Venezuela, no Panamá e na Colômbia. A versão colombiana tem cara de tortilla, massa de milho ou canjica branca e deve ser frita. É consumida a qualquer hora do dia na Colômbia, recheada a gosto com comidas como frango e carne desfiada."
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/bttCloseCulCo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#fcd117 "
+                android:text="↑ Ocultar"
+                android:textColor="#25230C"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bttPTCo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#22408b "
+            android:text="Pontos turísticos +"
+            app:cornerRadius="20dp" />
+
+        <LinearLayout
+            android:id="@+id/PTCo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/textView129"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="A Colômbia é um país no extremo norte da América do Sul. Sua paisagem é marcada por florestas tropicais, pela Cordilheira dos Andes e por várias plantações de café. Na capital Bogotá, que se encontra a uma grande altitude, a Zona Rosa é conhecida por seus restaurantes e lojas."
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView130"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Parque Tayrona"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView131"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="A 35 quilômetros da cidade de Santa Marta, o Parque Tayrona é um dos  lugares  mais visitados no caribe colombiano. E não é difícil entender os motivos: mar com águas cristalinas,  areia branca,  vegetação por todos os lados e muitas trilhas. Ou seja, o lugar ideal para quem quer contato com a natureza no seu estado mais verdadeiro. "
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView132"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Cartagena das Índias"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView133"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="Cartagena das Índias ou simplesmente Cartagena, é o    segundo principal      destino do país que consegue abrigar diversas cidades em uma só. A mais conhecida é a cidade amuralhada, com várias ruínas e construções muito bem preservadas com mais de 400 anos. Toda a região é constituída pelos bairros do Centro, San Diego, Matuna e Getsêmani, e concentra algumas das suas principais atrações, como o Palácio da Inquisição e a Torre do Relógio. Não deixe de fazer o passeio até o Forte de San Felipe de Barajas e a Catedral de San Pedro Claver. Aproveite para dar uma esticadinha na praça onde elas estão localizadas para conhecer os bares e os restaurantes e ainda curtir a agitada noite colombiana. "
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView134"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Cali"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView135"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="Cali é um excelente destino para quem gosta de aprender mais sobre a cultura e a história da Colômbia. O centro histórico da cidade é riquíssimo nesse aspecto, onde você não pode deixar de fora do seu roteiro o Museu Arqueológico La Merced, o Museu la Tertulia e o Museo Caliwood, este último dedicado às produções cinematográficas da região."
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/bttClosePTCo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#22408b "
+                android:text="↑ Ocultar"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

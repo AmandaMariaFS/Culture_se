@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cdefc4"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/bttBackM"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:background="#cdefc4"
+            android:tint="@color/black"
+            app:srcCompat="?attr/actionModeCloseDrawable" />
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Bem vindo a Marrocos"
+            android:textAlignment="center"
+            android:textColor="#2e2021"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="25dp"
+            app:srcCompat="@drawable/marrocos" />
+
+        <TextView
+            android:id="@+id/textView37"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Escolha o tópico desejado:"
+            android:textAlignment="center"
+            android:textColor="#2e2021"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/bttFes2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint=" #c2252c"
+            android:text="Festivais +"
+            app:cornerRadius="20dp" />
+
+        <LinearLayout
+            android:id="@+id/festivaisM"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Festival Gnaoua"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Música mais espiritual de Festivais locais e internacionais de Marrocos uma mística dos descentes de escravos negros e experimentos musicais com artistas de todo o mundo colocam a cidade em transe por uma semana. Uma experiência única que valeria a viagem sozinha."
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Festival de música sagrada"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="A nível internacional tempos em Fez de música sagrada, um festival dos Festivais locais e internacionais de Marrocos conhecido e reconhecido internacionalmente."
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Festival de Artes Populares"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Subordinado ao tema do folclore, músicas e danças típicas do Marrocos, um dos festivais  locais e internacionais, mas não só no Marrocos(cidade de Marrakech), também de outros países têm lugar no palco do Palácio Badi. "
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Festival casamentos em Imilchil"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="E um dos Festivais locais e internacionais de Marrocos onde tradição é que as raparigas da região escolhem os seus noivos. Durante cinco dias a festa está em pleno andamento: trajes cintilantes, música e celebrações de casamento."
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/bttCloseFesM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint=" #c2252c"
+                android:text="↑ Ocultar"
+                android:textColor=" #f8bdbc"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bttIdM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#255833"
+            android:text="Idiomas +"
+            app:cornerRadius="20dp" />
+
+        <LinearLayout
+            android:id="@+id/idiomasM"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="As línguas oficiais de Marrocos são o árabe e o berber. O Francês é compreendido e falado por praticamente todos os Marroquinos. "
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/bttCloseIdM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint=" #c2252c"
+                android:text="↑ Ocultar"
+                android:textColor=" #f8bdbc"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bttRelM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:backgroundTint=" #c2252c"
+            android:text="Religião +"
+            app:cornerRadius="20dp" />
+
+        <LinearLayout
+            android:id="@+id/rreligiaoM"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="O islamismo é a religião maioritária em Marrocos, incluindo os povos berberes. A grande maioria dos marroquinos segue o Islamismo sunita."
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/bttCloseRelM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint=" #c2252c"
+                android:text="↑ Ocultar"
+                android:textColor=" #f8bdbc"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bttCulM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#255833"
+            android:text="Culinária +"
+            app:cornerRadius="20dp" />
+
+        <LinearLayout
+            android:id="@+id/culinariaM"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/textView75"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Tajine"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="É o nome do prato mais tradicional do Marrocos e também é o nome da panela de barro na qual ele é feito. Existem diversas variações de tajines. Os mais comuns são de frango, azeitona e limão confitado, kafta com ovos, cordeiro com frutas secas e oleaginosas, peixe e legumes."
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView78"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Cuscuz"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView79"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="O cuscuz marroquino é diferente do que se come no Brasil. Lá a sêmola (cozida no vapor) é servida coberta com um ensopado de legumes ou carnes é uma refeição completa."
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView80"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Harira"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView81"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="A sopa Harira, feita com lentilhas e  muitas especiarias, é um prato super tradicional no Marrocos. Geralmente é com esse prato que os marroquinos quebram o jejum no fim do dia. A sopa é servida com pão, limão e tâmaras bem docinhas. "
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView82"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Babouche"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView83"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="A sopa é servida em uma cumbuca com um palitinho, que você usa para espetar os caracóis. O caldo é muito bem temperado, gostoso. Se não quiser comer as lesminhas, experimente apenas o caldinho."
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/bttCloseCulM2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint=" #c2252c"
+                android:text="↑ Ocultar"
+                android:textColor=" #f8bdbc"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bttPT2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:backgroundTint=" #c2252c"
+            android:text="Pontos turísticos +"
+            app:cornerRadius="20dp" />
+
+        <LinearLayout
+            android:id="@+id/PTM"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/textView84"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Mesquita Hassan II"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="A estrutura colossal da mesquita impressiona por seu tamanho e sua riqueza arquitetônica. Tem 20 mil quadrados da construção têm capacidade para receber 25 mil fiéis. Construída de frente para o mar, a mesquita tem o minarete mais alto do mundo. A torre tem 200 metros de altura, tamanho equivalente a um prédio de 50 andares! Tem que estar atento às vestimentas permitidas, ou seja, nada de bermudas, ombros de fora ou decotes. "
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView85"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Chellah"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView86"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="Este é um dos mais interessantes pontos turísticos do Marrocos, pois nele, é possível entender como a história do país se cruza com outras culturas. Ou seja, se trata de um sítio arqueológico, que abriga ruínas de uma antiga cidade do Império Romano. Chamada de sala Colônia, a cidade foi um dos principais centros navais dos romanos até perderem o domínio em 250 d.C. "
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView87"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Montanhas do Atlas"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView88"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="A Cordilheira do Atlas se estende por vários países, incluindo Marrocos, Argélia e Tunísia. Portanto, a experiência cultural será única neste local, pois todo o povo que habita na região é berbere, o que assegura momentos de muita aprendizagem. Além disso, kasbahs, montes e picos podem ser visitados e a aventura é garantida com trilhas, cataratas, o verde da vegetação se mesclando com o vermelho da terra e até mesmo neve! "
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/bttClosePTM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint=" #c2252c"
+                android:text="↑ Ocultar"
+                android:textColor=" #f8bdbc"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

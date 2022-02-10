@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#a59ce0 "
+    tools:context=".Tailandia">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/bttBackR2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:backgroundTint="#a59ce0 "
+            android:tint="@color/black"
+            app:srcCompat="?attr/actionModeCloseDrawable"
+            tools:layout_editor_absoluteX="52dp" />
+
+        <TextView
+            android:id="@+id/textView136"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Bem vindo a Tailândia"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/imageView26"
+            android:layout_width="match_parent"
+            android:layout_height="168dp"
+            android:layout_marginTop="22dp"
+            app:srcCompat="@drawable/tailandia" />
+
+        <TextView
+            android:id="@+id/textView137"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Escolha o tópico desejado:"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/bttFesTai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#ec1d23 "
+            android:text="Festivais +"
+            app:cornerRadius="20dp" />
+
+        <LinearLayout
+            android:id="@+id/FestivaisTai"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/textView160"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Loy Krathong - Festival das Luzes"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView161"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="Conhecido como Loi Krathong, o Festival das Luzes é um feriado budista e acontece um pouco por todo o país, com os tailandeses a soltarem nos rios barquinhos decorados com flores, velas e incensos, criando um espetacular efeito visual de milhares de pequenas chamas a flutuar sobre as águas. Alimentos e moedas também são colocados nos barquinhos como oferendas para atrair a boa sorte. Também é hábito soltarem-se no ar lanternas de papel, especialmente na região do norte e na província de Chiang Mai, igualmente em homenagem a Buda."
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView162"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Celebrações do Aniversário da Rainha Sirikit"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView163"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="A viúva do antigo Rei Rama IX, cujo nome de batismo era Bhumibol Adulyadej e que foi o monarca que mais tempo reinou na Tailândia, durante 70 anos, e mãe do atual rei, Rama X (Maha Vajiralongkorn) não é menos amada pelo povo que o marido e o filho, razão pela qual o seu aniversário foi declarado feriado nacional na Tailândia. Um pouco por todo o país, das grandes cidades às zonas mais rurais, ocorrem celebrações com toda a pompa e circunstância, com o povo a vestir-se em trajes de gala e com a máxima dedicação para honrar a amada Rainha-Mãe. Por ser vista desta forma, como a grande mãe que abençoa todos os tailandeses, o seu aniversário também foi transformado no Dia da Mãe no país. Este ano, a Rainha Sirikit comemorou 86 anos."
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView164"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Festival Songkran:  (Ano Novo Tailandês) "
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView165"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="A data do novo ano tailandês, ou Songkran, é definida com base no primeiro dia do calendário solar, Suriyakati, que ocorre normalmente de 13 a 15 de abril, também de acordo com a tradição da religião budista. O Songkran é a maior celebração na Tailândia, recheada de pequenos rituais de enorme simbolismo, como aquele em que os tailandeses saem à rua com pistolas de água para se molharem (e purificarem) uns aos outros ou em que os jovens derramam água nas mãos dos idosos, pedindo-lhes as suas bênçãos. Trata-se de uma extensão do ritual de derramar água sobre as estátuas de Buda, também típico das comemorações de ano novo. A água é, de seguida, recolhida e distribuída pelo povo, a quem concede boa sorte. Em Banguecoque, o Songkran dura três dias e a maioria dos estabelecimentos fecha para incentivar os trabalhadores a reunirem-se às suas famílias e a visitarem os templos. No primeiro dos três dias, as famílias tailandesas também aproveitam para limparem as casas, purificando-as e enchendo-as de esperanças para o novo ano."
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/bttCloseFesTai"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#ec1d23 "
+                android:text="↑ Ocultar"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bttIdTai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#eeeeee "
+            android:text="Idiomas +"
+            android:textColor="@color/black"
+            app:cornerRadius="20dp" />
+
+        <LinearLayout
+            android:id="@+id/IdiomasTai"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/textView166"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="O tailandês padrão, também conhecido como tailandês central ou siamês, é o idioma oficial da Tailândia, falado por cerca de 65 milhões de pessoas (1990), incluindo os falantes do tailandês de Bangkok (embora este seja, por vezes, considerado um dialeto à parte)."
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/bttCloseIdTai"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#eeeeee "
+                android:text="↑ Ocultar"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bttRelTai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#241d4e "
+            android:text="Religião +"
+            app:cornerRadius="20dp" />
+
+        <LinearLayout
+            android:id="@+id/ReligiaoTai"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/textView167"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="A principal religião praticada na Tailândia é o budismo, mas há uma tendência forte do hinduísmo com a sua distinta classe sacerdotal. A grande população de origem chinesa também pratica religiões populares chinesas, incluindo o taoísmo. "
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/bttCloseRelTai"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#241d4e "
+                android:text="↑ Ocultar"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bttCulTai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#eeeeee "
+            android:text="Culinária +"
+            android:textColor="@color/black"
+            app:cornerRadius="20dp" />
+
+        <LinearLayout
+            android:id="@+id/CulinariaTai"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/textView168"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="A culinária da Tailândia é caracterizada pela combinação de especiarias que proporcionam mistura de sabores e aromas variados: doce; apimentado; ácido; e salgado. Mesmo sem nunca ter sido colonizado, o país recebeu influências de diversos povos e países, como China, Vietnã, Mianmar, Laos, Cambodia e até Portugal."
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView169"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Som tam – Salada de mamão"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView170"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="Essa é uma das saladas mais encontradas na Tailândia, servida, em geral, como acompanhamento dos pratos principais. É original do nordeste do país e seu ingrediente principal é o mamão verde, misturado a outras verduras e legumes, como tomate e vagem. É temperada para proporcionar uma mistura de sabores: o picante do chilli, o doce do açúcar, o salgado do molho de peixe e o ácido do limão ou do suco de tamarindo. "
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView171"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Pad Thai"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView172"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="O prato mais famoso da cozinha tailandesa não poderia ficar de fora. O Pad Thai está por todos os lados, nas barraquinhas de rua e nos restaurantes conceituados. Por isso, há uma infinidade de formas de preparo que agregam inovações, mas a base permanece: noddles salteados com soja, alguma carne, camarões, tofu ou vegetais. É comum também que se adicione amendoim. Os molhos picantes são adicionados ao gosto do freguês – pode se jogar sem medo."
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView173"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Tom Kha Gai – Sopa de frango com leite de coco"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView174"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="Tom Kha Gai é uma sopa de frango e leite de coco, aromatizada com galangal – uma raiz da família do gengibre – capim-limão e lima kaffir, além de tomate e cogumelos. A mistura de ingredientes cria um contraste entre o sabor ácido dos temperos e a cremosidade do leite de coco. "
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView175"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Gaeng Kiew Wan – Carne com curry verde"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView176"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="Parecido ao Paenaeng Muú em sua forma de preparo, porém aqui se usa o curry verde e, em geral, é servido com carne de peixe. Costuma ser acompanhado de arroz ou noodles.  "
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/bttCloseCulTai"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#eeeeee "
+                android:text="↑ Ocultar"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bttPTTai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="15dp"
+            android:backgroundTint="#ed1d23 "
+            android:text="Pontos turísticos +"
+            app:cornerRadius="20dp" />
+
+        <LinearLayout
+            android:id="@+id/PTTai"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/textView177"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="A Tailândia é um país do Sudeste Asiático conhecido pelas praias tropicais, pelos palácios reais suntuosos, pelas ruínas antigas e pelos templos ornamentados com figuras de Buda. "
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView178"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Hho Phiphi"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView179"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="As Ilhas Phi Phi estão localizadas na província de Krabi, que abriga algumas das praias mais bonitas da Tailândia. Phi Phi Don, uma das ilhas mais famosas do complexo, foi uma das áreas mais atingidas por um tsunami em 2004. Atualmente, o local foi reconstruído e continua recebendo multidões. Um pequeno memorial foi construído para relembrar as vítimas da tragédia e celebrar a vida. Uma das principais atrações de Phi Phi é Monkey Beach, onde é possível conhecer de pertinho os moradores mais ilustres do local: os macacos, conhecidos por roubar comida dos visitantes. Long Beach é outra praia que atrai muitos turistas, recomendada para amantes do pôr do sol.  "
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView180"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Ayutthaya"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView181"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="Situando-se cerca de 76 km ao norte de Bangkok, com centenas de edifícios construídos principalmente de tijolos vermelhos, espalhados em uma área de 2.557 quilômetros quadrados. Ayutthaya é um complexo cheio de relíquias com muitos templos, pagodes e museus que foram construídos no século XIV. Esta cidade fascinante foi reconhecida como Patrimônio Cultural da Humanidade em dezembro em 1991 pela UNESCO.Construída pelo Rei Ramathibodi I e fundada em 1350, esta cidade era o maior centro econômico, político e cultural durante sete dinastias com mais de trinta réis. A cidade ainda preserva o passado de ouro da antiga capital que durou mais de 400 anos antes de ser destruída pelo exército birmanês em 1767. Porém, hoje os visitantes ainda podem admirar o esplendor de uma época cheia de prosperidade de um dos países mais ricos do Sudeste Asiático através de suas ruínas. "
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView182"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Chiang Mai"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView183"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="É considerada como “a rosa do norte” uma vez que fica entre as montanhas mais altas do país, a 700km de Bangkok, ao norte. Chiang Mai tem a fama por ser a cidade típica da história e cultura da Tailândia. Existem centenas de templos com arquitetura singular que ajudam a ter conhecimentos panorâmicos da antiga capital do império de Lanna. Diferentemente da agitação da capital de Bangkok ou da beleza das praias paradisíacas no Sul, Chiang Mai é cheio de traços históricos, tradicionais e culturais, bem como excelente gastronomia. Diz-se que esta cidade é muito tolerante porque recebeu muitos refugiados de tribos de outros países. Entre as tribos de refugiados em Chiang Mai, a mais conhecida que atrai a curiosidade dos turistas é a das mulheres de longo pescoço, as mulheres Karen. A melhor época para visitar Chiang Mai é de novembro a fevereiro em que a flora cresce e acontecem os festivais famosos: Yi Peng e Loy Krathong.É considerada como “a rosa do norte” uma vez que fica entre as montanhas mais altas do país, a 700km de Bangkok, ao norte. Chiang Mai tem a fama por ser a cidade típica da história e cultura da Tailândia. Existem centenas de templos com arquitetura singular que ajudam a ter conhecimentos panorâmicos da antiga capital do império de Lanna. Diferentemente da agitação da capital de Bangkok ou da beleza das praias paradisíacas no Sul, Chiang Mai é cheio de traços históricos, tradicionais e culturais, bem como excelente gastronomia. Diz-se que esta cidade é muito tolerante porque recebeu muitos refugiados de tribos de outros países. Entre as tribos de refugiados em Chiang Mai, a mais conhecida que atrai a curiosidade dos turistas é a das mulheres de longo pescoço, as mulheres Karen. A melhor época para visitar Chiang Mai é de novembro a fevereiro em que a flora cresce e acontecem os festivais famosos: Yi Peng e Loy Krathong."
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/bttClosePTTai"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#ec1d23 "
+                android:text="↑ Ocultar"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

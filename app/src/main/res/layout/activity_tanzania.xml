@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c6eff1 "
+    tools:context=".Tanzania">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#c6eff1 "
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/bttBackM2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:background="#c6eff1 "
+            android:tint="@color/black"
+            app:srcCompat="?attr/actionModeCloseDrawable" />
+
+        <TextView
+            android:id="@+id/textView89"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Bem vindo a Tanzânia"
+            android:textAlignment="center"
+            android:textColor="#2e2021"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/imageView24"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="25dp"
+            app:srcCompat="@drawable/tanzania" />
+
+        <TextView
+            android:id="@+id/textView90"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Escolha o tópico desejado:"
+            android:textAlignment="center"
+            android:textColor="#2e2021"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/bttFesTan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#1eb539 "
+            android:text="Festivais +"
+            app:cornerRadius="20dp" />
+
+        <LinearLayout
+            android:id="@+id/festivaisTan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Sauti za Busara"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Sauti za Busara significa literalmente os sons da sabedoria em Swahili e acontece em Zanzibar todos os anos. O festival de música de Zanzibar é o único festival de música da Zanzibar que realiza sessões de agitação para mostrar a rica música africana e suaíli."
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView91"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Karibu Viagens e turismo justo"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView92"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="A maior feira de turismo da África Oriental é realizada anualmente na base do Monte Kilimanjaro e na cratera do Monte Meru. Realiza-se em Arusha, onde mais de 250 expositores apresentam seus produtos de turismo local e prestadores de serviços. Os visitantes têm uma gama variada de opções entre pousadas de animais selvagens, empresas de ecoturismo, artes de escalada de montanha, material de camping, guias de safári e provedores de transporte. "
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView93"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="O Serengeti Cultural Festival"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView94"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Um evento anual que reúne pessoas de todo o mundo no Parque Nacional Serengeti e na Zona do Lago. É um dos principais festivais da Tanzânia e é um festival tradicional de arte e dança que oferece um ótimo complemento para os visitantes do Safari do Parque Nacional Serengeti. O tema deste festival da Tanzânia em 2019 é 'educação para todos' e acontece em julho. É também a época da migração anual de gnus, onde é possível observar um grande número de animais selvagens, como zebras e gazelas, cruzando o rio Mara em direção ao norte em busca de pradarias mais verdes. "
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView95"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Festival Nyama Choma"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView96"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-medium"
+                android:text='A comida desempenha um papel importante em qualquer cultura do mundo e os africanos não estão muito atrás. Nyama choma significa literalmente "carne assada" em suaíli e a receita é passada de geração em geração. A Tanzânia realiza o maior festival de churrasco todos os anos para celebrar esta receita. Pessoas de todo o mundo se reúnem em torno das cidades de Dar es Salaam e Arusha para experimentar o gado barbequeado. De costelas de churrasco ao bife T-bone e carne grelhada em geral, este é o lugar para estar em março para os amantes da comida.'
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/bttCloseFesTan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#1eb539 "
+                android:text="↑ Ocultar"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bttIdTan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#fbcf33 "
+            android:text="Idiomas +"
+            android:textColor="#403B10"
+            app:cornerRadius="20dp" />
+
+        <LinearLayout
+            android:id="@+id/idiomasTan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+
+            <TextView
+                android:id="@+id/textView102"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="A Tanzânia, oficialmente República Unida da Tanzânia, um país da África Oriental cuja língua oficial é o suaíli. "
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/bttCloseIdTan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#fbcf33 "
+                android:text="↑ Ocultar"
+                android:textColor="#403B10"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bttRelTan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#141414 "
+            android:text="Religião +"
+            app:cornerRadius="20dp" />
+
+        <LinearLayout
+            android:id="@+id/religiaoTan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/textView103"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="De acordo com os dados divulgados pela Association of Religion Data Archives um total de 53,20% da população da Tanzânia é seguidora do Cristianismo, seguem-se os Muçulmanos que perfazem 31,62%, os seguidores de crenças tribais correspondem a 13,40% da população, os adeptos do Hinduísmo são 0,87%, a fé Bahaí é seguida por 0,42% e 0,48% seguem outras religiões."
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/bttCloseRelTan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#141414 "
+                android:text="↑ Ocultar"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bttCulTan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#fbcf33 "
+            android:text="Culinária +"
+            android:textColor="#403B10"
+            app:cornerRadius="20dp" />
+
+        <LinearLayout
+            android:id="@+id/culinariaTan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/textView97"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Biriyani"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView98"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Biryani, com origens no Oriente Médio e partes da Índia, é também um dos pratos mais famosos para comer em Zanzibar. O arroz é cozido em uma variedade de especiarias e, em seguida, emparelhado juntamente com uma carne ou peixe curry, que acompanha sempre o arroz. Ao contrário de pilau (como abaixo), biryani é o estilo onde o arroz e o curry são cozidos separadamente e, em seguida, combinados juntos para fazer o prato completo. Versões populares incluem peixe, carne bovina e cabra."
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView99"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Mishkaki"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView100"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Para um delicioso lanche, pegue alguns espetos de mishkaki, que são geralmente de frango ou carne. O mishkaki tem um estilo indiano e ao mesmo tempo lembra os espetos de estilo kebab do Oriente Médio.A carne é marinada em uma mistura agradável de especiarias e molho, em seguida, grelhados à perfeição. As varas de mishkaki são ótimas para comer para uma refeição, e em Zanzibar, especialmente em torno das ruas de Stone Town, você vai encontrá-los no final da tarde. Em Dar Es Salaam, você encontrará enormes espetos de carne, enquanto em Zanzibar eles são normalmente um pouco menores."
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/bttCloseCulTan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#fbcf33 "
+                android:text="↑ Ocultar"
+                android:textColor="#403B10"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bttPTTan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#00a3dd "
+            android:text="Pontos turísticos +"
+            app:cornerRadius="20dp" />
+
+        <LinearLayout
+            android:id="@+id/PTTan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/textView104"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Entre extensas savanas e altas montanhas, a Tanzânia é um país que merece ser visitado. Quem gosta de entrar em contato com a natureza pode ter experiências memoráveis nesse destino, que fica na costa leste da África."
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView105"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Serengeti"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView106"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Um dos trechos de savana mais famosos do mundo, o Serengeti é formado por planícies que se estendem por 1,5 milhão de hectares. Protegido por diversos parques, o local é o lar de vários grupos de grandes mamíferos, como zebras, gazelas, leões, elefantes, girafas e muitos outros. Todo ano, esses animais realizam incríveis migrações em busca de água. "
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView107"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Zanzibar"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView108"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Zanzibar é um arquipélago na costa nordeste da Tanzânia com praias paradisíacas que estão entre as mais bonitas do mundo. O mar é de um azul turquesa cristalino, digno do Caribe, e as areias são finas e brancas. Há ainda recifes de corais e cidades com construções históricas. Zanzibar também é famosa pelo cultivo de todo o tipo de especiarias."
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView109"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Ngorongoro"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView110"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Ngorongoro engloba áreas de conservação ambiental e também a maior cratera de um vulcão inativo do mundo, a Cratera Ngorongoro. Hoje, a cratera é coberta por um lago e vegetação de savana, o que a tornou um habitat de animais como zebras, rinocerontes e leões."
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView111"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Monte Kilimanjaro"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView112"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Na fronteira com o Quênia, o Kilimanjaro é o ponto mais alto de toda a África, com quase seis mil metros de altitude. Essa alta formação vulcânica com seu pico nevado o ano inteiro contrasta de uma maneira incrível com as planícies de savana à sua volta. "
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/bttClosePTTan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00a3dd "
+                android:text="↑ Ocultar"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
